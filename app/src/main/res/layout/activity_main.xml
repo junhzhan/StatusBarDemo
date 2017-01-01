@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="cn.sports39.statusbar.MainActivity">
+
+    <Button
+        android:id="@+id/hideOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐藏status bar"/>
+
+    <Button
+        android:id="@+id/hideTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="layout full screen"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeStatusColor"
+        android:text="改变status bar颜色"/>
+
+    <Button
+        android:id="@+id/launchOne"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/launchTwo"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
